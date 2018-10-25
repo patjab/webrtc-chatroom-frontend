@@ -18,6 +18,27 @@
   color: white;
 }
 
+#forms {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#messagesInner {
+  text-align: left;
+  padding-left: 2vmax;
+}
+
+form {
+  padding: 1vmin;
+}
+
+textarea {
+  width: 400px;
+  max-width: 80vw;
+  height: 100px;
+}
+
 .App-link {
   color: #61dafb;
 }
